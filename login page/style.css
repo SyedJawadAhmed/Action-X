@@ -1,0 +1,106 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200%;
+}
+.navbar {
+    width: 90%;
+    margin: 1rem;
+}
+
+.navbar .container {
+        display: flex;
+        align-items: center;
+    }
+
+.navbar .container .nav-left-1 h1 {
+    color: #624bff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 4rem;
+}
+
+.navbar .container .nav-left-2 .search {
+    padding: 0.5rem 2rem;
+    margin-left: 1.5rem;
+}
+
+.navbar .container .nav-right {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar .container .nav-right a {
+    color: gray;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 2.5rem;
+}
+
+.navbar .container .nav-right .account {
+    padding: 0.8rem;
+    background-color: #624bff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 2.5rem;
+    color: white;
+}
+hr{
+    box-shadow: 0 0 20px black;
+    font-weight: 100;
+}
+#cont{
+    margin-top: 80px;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    align-items:start;
+    justify-content: flex-start;
+    background-color:chocolate;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    
+}
+#main h1{
+margin-right: 115px;
+padding:10px;
+color: lightblue;
+}
+#main h3{
+    color: lightblue;
+}
+.int{
+    margin-right: 12px;
+    padding:10px;
+    color: lightblue; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.int input{
+    padding: 5px 5px 5px 30px;
+}
+.int #butt{
+    background-color: #624bff;
+    color: antiquewhite;
+    font-weight: 200;
+    cursor: pointer;
+    /* display: flex; */
+    /* flex-direction:column; */
+    justify-content: center;
+    gap: 30px;
+}
+.int #p{
+    color: black;
+}
